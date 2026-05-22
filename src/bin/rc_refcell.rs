@@ -26,7 +26,7 @@ fn main() {
     println!("*module_b.borrow() ={:?}",*module_b.borrow());//*module_b.borrow() =15
 
     //so what's the value of a? it should be 15
-    println!("*a.borrow()={:?}",*a.borrow()); //a.borrow()=15
+    println!("*a.borrow()={:?}",*a.borrow()); //*a.borrow()=15
 
 
 
